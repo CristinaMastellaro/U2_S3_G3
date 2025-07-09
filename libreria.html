@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Libreria virtuale</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-warning-subtle">
+    <header>
+      <h1 class="text-center m-4 bg-light">Libreria di Epicode</h1>
+    </header>
+    <main class="d-flex flex-column flex-lg-row m-5 mb-0 py-4 bg-light">
+      <section class="container">
+        <div class="row g-4 justify-content-around gap-4" id="bookShelf"></div>
+      </section>
+      <aside class="me-2 mt-4 border border-top d-none bg-primary-subtle">
+        <h2 class="my-2 ps-3">Carrello</h2>
+        <p class="ps-3">Totale: <span id="total">0</span>€</p>
+      </aside>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./libreria.js"></script>
+  </body>
+</html>
